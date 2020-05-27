@@ -1,106 +1,107 @@
-Nombre Shapes;Variable;Tipo de variable;Sigla de variable;Sigla de campo;Nombre final;Descripción del campo;;
-ID_DEL;Delitos ;discreta;DL;Id;DL_Id;Código ID de cada registro;;
-DL_COMUNA;Delitos ;categórica;DL;Comun;DL_Comun;Comunas;;
-DL_BARRIO;Delitos ;categórica;DL;Barrio;DL_Barrio;Barrio donde se registró el Delito;;
-DL_year;Delitos ;categórica;DL;Year;DL_Year;Año de registro;;
-DL_2016;Delitos ;dummy;DL;2016;DL_2016;Año de registro;;
-DL_2017;Delitos ;dummy;DL;2017;DL_2017;Año de registro;;
-DL_2018;Delitos ;dummy;DL;2018;DL_2018;Año de registro;;
-DL_MES;Delitos ;categórica;DL;Mes;DL_Mes;Mes en el que ocurrio el delito;;
-DL_DIA;Delitos ;discreta;DL;Dia;DL_Dia;día en el que ocurrio el delito;;
-DL_FECH;Delitos ;discreta;DL;Fecha;DL_Fecha;Fecha dd/mm/aaaa;;
-DL_Hora;Delitos ;discreta;DL;Hora;DL_Hora;Hora en que ocurrió el delito;;
-DL_Verano;Delitos ;dummy;DL;Verano;DL_Verano;Delito ocurrido en verano;;
-DL_Otono;Delitos ;dummy;DL;Otono;DL_Otono;Delito ocurrido en Otono;;
-DL_Inviern;Delitos ;dummy;DL;Inviern;DL_Inviern;Delito ocurrido en invierno;;
-DL_Primave;Delitos ;dummy;DL;Primav;DL_Primav;Delito ocurrido en Primavera;;
-DL_Frhor;Delitos ;categórica;DL;FrjHor;DL_FrjHor;Franja del día en que ocurrió el delito;;
-DL_madruga;Delitos ;dummy;DL;Madrug;DL_Madrug;Delito ocurrido en la madrugada;;
-DL_manana;Delitos ;dummy;DL;Manana;DL_Manana;delito ocurrido en la mañana;;
-DL_MedDia;Delitos ;dummy;DL;MedDia;DL_MedDia;delito ocurrido al medio día;;
-DL_Tarde;Delitos ;dummy;DL;Tarde;DL_Tarde;delito ocurrido durante la tarde;;
-DL_Noche;Delitos ;dummy;DL;Noche;DL_Noche;delito ocurrido durante la noche;;
-DL_Trasnoc;Delitos ;dummy;DL;Trasno;DL_Trasno;delito ocurrido en la trasnoche;;
-DL_HURPER;Delitos ;discreta;DL;HurPer;DL_HurPer;Hurto a Personas ;;
-DL_HURAUT;Delitos ;discreta;DL;HurAut;DL_HurAut;Hurot a automoviles;;
-DL_ROBO;Delitos ;discreta;DL;RobPer;DL_RobPer;robo a personas;;
-DL_PerC16;Delitos ;continua;DL;Perc16;DL_Perc16;delito percapita en 2016;;
-DL_PerC17;Delitos ;continua;DL;Perc17;DL_Perc17;delito percapita en 2017;;
-DL_PerC18;Delitos ;continua;DL;Perc18;DL_Perc18;delito percapita en 2018;;
-DL_PerCap;Delitos ;continua;DL;PercTot;DL_PercTot;delito percapita total;;
-DL_LAT;Delitos ;continua;DL;Latid;DL_Latid;Valores en eje Y de geolocalización;;
-DL_LONG;Delitos ;continua;DL;Longi;DL_Longi;Valores en eje x de geolocalización;;
-AU_Unidad;Delitos ;discreta;DL;AuUni;DL_AuUni;Código de unidad de estudio AU25M;;
-AU_Tramo;Delitos ;categórica;GN;AuTra;GN_AuTra;Tramo de AU25M;;
-T1;Delitos ;dummy;GN;AuT1;GN_AuT1;Tramo1;;
-T2;Delitos ;dummy;GN;AuT2;GN_AuT2;Tramo2;;
-T3;Delitos ;dummy;GN;AuT3;GN_AuT3;Tramo3;;
-T4;Delitos ;dummy;GN;AuT4;GN_AuT4;Tramo4;;
-T5;Delitos ;dummy;GN;AuT5;GN_AuT5;Tramo5;;
-T6;Delitos ;dummy;GN;AuT6;GN_AuT6;Tramo6;;
-T7;Delitos ;dummy;GN;AuT7;GN_AuT7;Tramo7;;
-T8;Delitos ;dummy;GN;AuT8;GN_AuT8;Tramo8;;
-T9;Delitos ;dummy;GN;AuT9;GN_AuT9;Tramo9;;
-AU_Sector;Delitos ;categórica;GN;Secto;GN_Secto;Sector Norte o Sur de la AU25M;;
-Norte;Delitos ;dummy;GN;SecNo;GN_SecNo;Sector Norte AU25M;;
-Sur;Delitos ;dummy;GN;SecSu;GN_SecSu;Surs Este-Oeste;;
-AU_Km2;Delitos ;continua;GN;AuKm2;GN_AuKm2;Km2 de Unidad de estudio;;
-DL__DistAU;Delitos ;continua;GN;DsAu;GN_DsAu;Distancia en metros desde eje víal de la AU25m;;
-DL_Dist100;Delitos ;categórica;GN;DsAu2;GN_DsAu2;Distancia en metros desde eje víal de la AU25m por segementos de 100m;;
-DL_DisAUInv;Delitos ;continua;GN;DsAuI;GN_DsAuI;Distancia invertida en metros desde eje víal de la AU25m;;
-AU_Franja;Delitos ;continua;GN;AuFra;GN_AuFra;Franjas Este-Oeste ;;
-Franja 1;Relevamiento de los Usos del Suelo;dummy;GN;AuFra1;GN_AuFra1;Franja Sur Entre Avenida Garay Av. Caseros;;
-Franja 2;Relevamiento de los Usos del Suelo;dummy;GN;AuFra2;GN_AuFra2;Franja Autopista Entre Av. Garay y Avenida San Juan;;
-Franja 3;Relevamiento de los Usos del Suelo;dummy;GN;AuFra3;GN_AuFra3;Franja norte entre Av. San Juan y Av. Independencia;;
-Franja 4;Relevamiento de los Usos del Suelo;dummy;GN;AuFra4;GN_AuFra4;Franja Norte entre Av. Independencia y Av. Belgrano;;
-DL_DistAV;Delitos ;continua;GN;DsAve;GN_DsAve;Distancia desde Avenidas;;
-DL_DistSb;Delitos ;continua;GN;DsSub;GN_DsSub;Distancia desde estaciones de Subte;;
-DL_DistEV;Delitos ;continua;GN;DsEVe;GN_DsEVe;Distancia desde espacios verdes con área igual o superior a 2000m2;;
-DL_DistAc;Delitos ;discreta;GN;DsAcc;GN_DsAcc;Distancia desde Accesos a Autopista (Subidas, Bajadas, conectores);;
-DL_PCol_H;Delitos ;dummy;GN;DenPC;GN_DenPC;Densidad de Paradas de Colectivos por Hectárea;;
-EEVV_Amort;Delitos ;discreta;GN;EVeAm;GN_EVeAm;Predios que están a menos de 100 metros de un Parque o área verde (igual o superior a 2000m2) contiguo a la AU25M;;
-LINK_2010;Población;continua;PB;Link10;PB_Link10;Código de Radio Censal - año 2010;;
-DENS10;Población;discreta;PB;Den10;PB_Den10;Habitante por Hectárea;;
-POB10;Población;discreta;PB;Pob10;PB_Pob10;Habitantes;;
-VIV10;Población;discreta;PB;Viv10;PB_Viv10;Viviendas;;
-HOG10;Población;discreta;PB;Hog10;PB_Hog10;Hogares;;
-NBI10;Población;discreta;PB;NBI10;PB_NBI10;Habitantes con Necesidades Básicas Insatisfechas;;
-DESOC10;Población;discreta;PB;Des10;PB_Des10;Habitantes desocupados ;;
-OCUP10;Población;discreta;PB;Ocu10;PB_Ocu10;Habitantes Ocupados;;
-INMIG10;Población;discreta;PB;Inm10;PB_Inm10;Habitantes Inmigrantes;;
-NO_TEN10;Población;continua;PB;NTen10;PB_NTen10;Viviendas con tenencia informal ;;
-Area Radio;Población;discreta;PB;RcHa;PB_RcHa;Area de Radio Censal en Hectareas;;
-Menor_Edad;Población;discreta;PB;Men10;PB_Men10;Habitantes menores de 18 años;;
-Adult_Mayo;Población;discreta;PB;Adu10;PB_Adu10;Habitantes Mayores a 65 años;;
-PEconAct;Población;continua;PB;PEA10;PB_PEA10;Habitantes entre 18 y 65 años (Población económicamente activa);;
-RC_Km2;Población;discreta;PB;RcKm2;PB_RcKm2;Area de Radio Censal en Kilometros Cuadrados;;
-Id_Ruido;Ruido;continua;RU;Id;RU_Id;ID_shape Ruido (AU_F_Ruido_Acciones_v1) ;;
-NDB_MIN;Ruido;continua;RU;NDbaM;RU_NDbaM;Presión sonora mínima durante la noche;;
-NDB_MAX;Ruido;continua;RU;NDbaX;RU_NDbaX;Presión sonora máxima durante la noche;;
-DDB_MIN;Ruido;continua;RU;DDbaM;RU_DDbaM;Presión sonora mínima durante el día;;
-DDB_MAX;Ruido;categórica;RU;DDbaX;RU_DDbaX;Presión sonora máxima durante el día;;
-Id_Rudo;Ruido;continua;RU;IdAu;RU_IdAu;ID_zonas ruidosas afectadas por AU52M_shape Ruido (AU_F_Ruido_Acciones_v1) ;;
-RU_Dist;Ruido;continua;RU;Ds;RU_Ds;Distancia más corta de nivel de ruido a cada propiedad;;
-RU_DistInv;Ruido;continua;RU;DsInv;RU_DsInv;Distancia invertida más corta de nivel de ruido a cada propiedad;;
-ACCION;Ruido;dummy;RU;Accio;RU_Accio;Tipo de intervención para mejoramiento de entornos ruidosos;;
-RELOCALIZA;Ruido;dummy;RU;Reloc;RU_Reloc;Intervención 1- Relocalizar;;
-AISLAR;Ruido;dummy;RU;Aisla;RU_Aisla;Intervención 2- Aisalar fuentes ruidosas;;
-PROTEGER;Ruido;discreta;RU;Prote;RU_Prote;Intervención 3- Proteger unidades habitables;;
-BAU_FID;Bajo Autopista;continua;BA;Id;BA_Id;ID_shape de Bajo Autopistas (AU_BAU_V3);;
-BAU_Dis;Bajo Autopista;continua;BA;Ds;BA_Ds;Distancia más corta desde Bajo Autopistas a cada propiedad;;
-BAU_DisInv;Bajo Autopista;categórica;BA;DsInv;BA_DsInv;Distancia invertida más corta desde Bajo Autopistas a cada propiedad;;
-TipoBAU;Bajo Autopista;categórica;BA;TBAu;BA_TBAu;Indica si corresponde a un Bajo Autopista con Calle Pasante o Calle Cortada;;
-CallePasante;Bajo Autopista;dummy;BA;CPasan;BA_CPasan;Indica los Bajoautopistas que se intersectan con calle vehículares sin interrumpirlas;;
-CalleCortada;Bajo Autopista;dummy;BA;CCorta;BA_CCorta;Indica calles vehículares discontinuas a causa del paso de la Autopista;;
-TipoC;Bajo Autopista;categórica;BA;TVia;BA_TVia;Tipo de eje vial (Calle o Avenida);;
-Sentido;Bajo Autopista;dummy;BA;SentVi;BA_SentVi;Indica si el eje víal tiene doble sentido o sencillo respecto del transito vehicular;;
-TP;Bajo Autopista;categórica;BA;TrPub;BA_TrPub;Indica si pasa trasnporte público por el Bajo Autopista ;;
-MOVILIDAD;Bajo Autopista;categórica;BA;IdTra;BA_IdTra;Código del nivel de tránsito en el Bajo Autopista;;
-TRANSITO;Bajo Autopista;dummy;BA;NomTra;BA_NomTra;Nombre del nivel de tránsito en el Bajo Autopista;;
-T_Alto;Bajo Autopista;dummy;BA;TraAl;BA_TraAl;Indica los Bajo Autopistas que se intersectan con avenidas por donde además pasa transporte público;;
-T_Medio;Bajo Autopista;dummy;BA;TraMe;BA_TraMe;Indica los Bajo Autopistas que se intersectan con Calles por donde pasa transporte público y con avenidas sin transporte público.;;
-T_Bajo;Bajo Autopista;dummy;BA;TraBa;BA_TraBa;Indica los Bajo Autopistas que se intersectan con Calles por donde no pasa transporte público;;
-QR_PA;Quejas y Reclamos;discreta;QR;PrAmb;QR_PrAmb;Quejas y reclamos relacionados a la Protección Ambiental por cada Bajo Autopista;;
-QR_EP;Quejas y Reclamos;discreta;QR;EsPub;QR_EsPub;Quejas y reclamos relacionados al espacio público por cada Bajo Autopista;;
-QR_Total;Quejas y Reclamos;discreta;QR;Total;QR_Total;Total de Quejas y Reclamos por cada Bajo Autopista;;
-QR_DenHa;Quejas y Reclamos;continua;QR;DenHa;QR_DenHa;Densidad del total de reclamos por hectarea, para cada bajo autopista en un área d einfluencia 30m.;;
+Nombre Shapes;Variable;Tipo de variable;Sigla de variable;Sigla de campo;Nombre final;Descripción del campo
+ID_DEL;Delitos ;discreta;DL;Id;DL_Id;Código ID de cada registro
+DL_COMUNA;Delitos ;categórica;DL;Comun;DL_Comun;Comunas
+DL_BARRIO;Delitos ;categórica;DL;Barrio;DL_Barrio;Barrio donde se registró el Delito
+DL_year;Delitos ;categórica;DL;Year;DL_Year;Año de registro
+DL_2016;Delitos ;dummy;DL;2016;DL_2016;Año de registro
+DL_2017;Delitos ;dummy;DL;2017;DL_2017;Año de registro
+DL_2018;Delitos ;dummy;DL;2018;DL_2018;Año de registro
+DL_MES;Delitos ;categórica;DL;Mes;DL_Mes;Mes en el que ocurrio el delito
+DL_DIA;Delitos ;discreta;DL;Dia;DL_Dia;día en el que ocurrio el delito
+DL_FECH;Delitos ;discreta;DL;Fecha;DL_Fecha;Fecha dd/mm/aaaa
+DL_Hora;Delitos ;discreta;DL;Hora;DL_Hora;Hora en que ocurrió el delito
+DL_Verano;Delitos ;dummy;DL;Verano;DL_Verano;Delito ocurrido en verano
+DL_Otono;Delitos ;dummy;DL;Otono;DL_Otono;Delito ocurrido en Otono
+DL_Inviern;Delitos ;dummy;DL;Inviern;DL_Inviern;Delito ocurrido en invierno
+DL_Primave;Delitos ;dummy;DL;Primav;DL_Primav;Delito ocurrido en Primavera
+DL_Frhor;Delitos ;categórica;DL;FrjHor;DL_FrjHor;Franja del día en que ocurrió el delito
+DL_madruga;Delitos ;dummy;DL;Madrug;DL_Madrug;Delito ocurrido en la madrugada
+DL_manana;Delitos ;dummy;DL;Manana;DL_Manana;delito ocurrido en la mañana
+DL_MedDia;Delitos ;dummy;DL;MedDia;DL_MedDia;delito ocurrido al medio día
+DL_Tarde;Delitos ;dummy;DL;Tarde;DL_Tarde;delito ocurrido durante la tarde
+DL_Noche;Delitos ;dummy;DL;Noche;DL_Noche;delito ocurrido durante la noche
+DL_Trasnoc;Delitos ;dummy;DL;Trasno;DL_Trasno;delito ocurrido en la trasnoche
+DL_HURPER;Delitos ;discreta;DL;HurPer;DL_HurPer;Hurto a Personas 
+DL_HURAUT;Delitos ;discreta;DL;HurAut;DL_HurAut;Hurot a automoviles
+DL_ROBO;Delitos ;discreta;DL;RobPer;DL_RobPer;robo a personas
+DL_PerC16;Delitos ;continua;DL;Perc16;DL_Perc16;delito percapita en 2016
+DL_PerC17;Delitos ;continua;DL;Perc17;DL_Perc17;delito percapita en 2017
+DL_PerC18;Delitos ;continua;DL;Perc18;DL_Perc18;delito percapita en 2018
+DL_PerCap;Delitos ;continua;DL;PercTot;DL_PercTot;delito percapita total
+DL_LAT;Delitos ;continua;DL;Latid;DL_Latid;Valores en eje Y de geolocalización
+DL_LONG;Delitos ;continua;DL;Longi;DL_Longi;Valores en eje x de geolocalización
+AU_Unidad;Delitos ;discreta;DL;AuUni;DL_AuUni;Código de unidad de estudio AU25M
+AU_Tramo;Delitos ;categórica;GN;AuTra;GN_AuTra;Tramo de AU25M
+T1;Delitos ;dummy;GN;AuT1;GN_AuT1;Tramo1
+T2;Delitos ;dummy;GN;AuT2;GN_AuT2;Tramo2
+T3;Delitos ;dummy;GN;AuT3;GN_AuT3;Tramo3
+T4;Delitos ;dummy;GN;AuT4;GN_AuT4;Tramo4
+T5;Delitos ;dummy;GN;AuT5;GN_AuT5;Tramo5
+T6;Delitos ;dummy;GN;AuT6;GN_AuT6;Tramo6
+T7;Delitos ;dummy;GN;AuT7;GN_AuT7;Tramo7
+T8;Delitos ;dummy;GN;AuT8;GN_AuT8;Tramo8
+T9;Delitos ;dummy;GN;AuT9;GN_AuT9;Tramo9
+AU_Sector;Delitos ;categórica;GN;Secto;GN_Secto;Sector Norte o Sur de la AU25M
+Norte;Delitos ;dummy;GN;SecNo;GN_SecNo;Sector Norte AU25M
+Sur;Delitos ;dummy;GN;SecSu;GN_SecSu;Surs Este-Oeste
+AU_Km2;Delitos ;continua;GN;AuKm2;GN_AuKm2;Km2 de Unidad de estudio
+DL__DistAU;Delitos ;continua;GN;DsAu;GN_DsAu;Distancia en metros desde eje víal de la AU25m
+Log__DistAU;Delitos ;continua;Log;DsAu;Log_DsAu;Logaritmo de Distancia en metros desde eje víal de la AU25m
+DL_Dist100;Delitos ;categórica;GN;DsAu2;GN_DsAu2;Distancia en metros desde eje víal de la AU25m por segementos de 100m
+DL_DisAUInv;Delitos ;continua;GN;DsAuI;GN_DsAuI;Distancia invertida en metros desde eje víal de la AU25m
+AU_Franja;Delitos ;continua;GN;AuFra;GN_AuFra;Franjas Este-Oeste 
+Franja 1;Relevamiento de los Usos del Suelo;dummy;GN;AuFra1;GN_AuFra1;Franja Sur Entre Avenida Garay Av. Caseros
+Franja 2;Relevamiento de los Usos del Suelo;dummy;GN;AuFra2;GN_AuFra2;Franja Autopista Entre Av. Garay y Avenida San Juan
+Franja 3;Relevamiento de los Usos del Suelo;dummy;GN;AuFra3;GN_AuFra3;Franja norte entre Av. San Juan y Av. Independencia
+Franja 4;Relevamiento de los Usos del Suelo;dummy;GN;AuFra4;GN_AuFra4;Franja Norte entre Av. Independencia y Av. Belgrano
+DL_DistAV;Delitos ;continua;GN;DsAve;GN_DsAve;Distancia desde Avenidas
+DL_DistSb;Delitos ;continua;GN;DsSub;GN_DsSub;Distancia desde estaciones de Subte
+DL_DistEV;Delitos ;continua;GN;DsEVe;GN_DsEVe;Distancia desde espacios verdes con área igual o superior a 2000m2
+DL_DistAc;Delitos ;discreta;GN;DsAcc;GN_DsAcc;Distancia desde Accesos a Autopista (Subidas, Bajadas, conectores)
+DL_PCol_H;Delitos ;dummy;GN;DenPC;GN_DenPC;Densidad de Paradas de Colectivos por Hectárea
+EEVV_Amort;Delitos ;discreta;GN;EVeAm;GN_EVeAm;Predios que están a menos de 100 metros de un Parque o área verde (igual o superior a 2000m2) contiguo a la AU25M
+LINK_2010;Población;continua;PB;Link10;PB_Link10;Código de Radio Censal - año 2010
+DENS10;Población;discreta;PB;Den10;PB_Den10;Habitante por Hectárea
+POB10;Población;discreta;PB;Pob10;PB_Pob10;Habitantes
+VIV10;Población;discreta;PB;Viv10;PB_Viv10;Viviendas
+HOG10;Población;discreta;PB;Hog10;PB_Hog10;Hogares
+NBI10;Población;discreta;PB;NBI10;PB_NBI10;Habitantes con Necesidades Básicas Insatisfechas
+DESOC10;Población;discreta;PB;Des10;PB_Des10;Habitantes desocupados 
+OCUP10;Población;discreta;PB;Ocu10;PB_Ocu10;Habitantes Ocupados
+INMIG10;Población;discreta;PB;Inm10;PB_Inm10;Habitantes Inmigrantes
+NO_TEN10;Población;continua;PB;NTen10;PB_NTen10;Viviendas con tenencia informal 
+Area Radio;Población;discreta;PB;RcHa;PB_RcHa;Area de Radio Censal en Hectareas
+Menor_Edad;Población;discreta;PB;Men10;PB_Men10;Habitantes menores de 18 años
+Adult_Mayo;Población;discreta;PB;Adu10;PB_Adu10;Habitantes Mayores a 65 años
+PEconAct;Población;continua;PB;PEA10;PB_PEA10;Habitantes entre 18 y 65 años (Población económicamente activa)
+RC_Km2;Población;discreta;PB;RcKm2;PB_RcKm2;Area de Radio Censal en Kilometros Cuadrados
+Id_Ruido;Ruido;continua;RU;Id;RU_Id;ID_shape Ruido (AU_F_Ruido_Acciones_v1) 
+NDB_MIN;Ruido;continua;RU;NDbaM;RU_NDbaM;Presión sonora mínima durante la noche
+NDB_MAX;Ruido;continua;RU;NDbaX;RU_NDbaX;Presión sonora máxima durante la noche
+DDB_MIN;Ruido;continua;RU;DDbaM;RU_DDbaM;Presión sonora mínima durante el día
+DDB_MAX;Ruido;categórica;RU;DDbaX;RU_DDbaX;Presión sonora máxima durante el día
+Id_Rudo;Ruido;continua;RU;IdAu;RU_IdAu;ID_zonas ruidosas afectadas por AU52M_shape Ruido (AU_F_Ruido_Acciones_v1) 
+RU_Dist;Ruido;continua;RU;Ds;RU_Ds;Distancia más corta de nivel de ruido a cada propiedad
+RU_DistInv;Ruido;continua;RU;DsInv;RU_DsInv;Distancia invertida más corta de nivel de ruido a cada propiedad
+ACCION;Ruido;dummy;RU;Accio;RU_Accio;Tipo de intervención para mejoramiento de entornos ruidosos
+RELOCALIZA;Ruido;dummy;RU;Reloc;RU_Reloc;Intervención 1- Relocalizar
+AISLAR;Ruido;dummy;RU;Aisla;RU_Aisla;Intervención 2- Aisalar fuentes ruidosas
+PROTEGER;Ruido;discreta;RU;Prote;RU_Prote;Intervención 3- Proteger unidades habitables
+BAU_FID;Bajo Autopista;continua;BA;Id;BA_Id;ID_shape de Bajo Autopistas (AU_BAU_V3)
+BAU_Dis;Bajo Autopista;continua;BA;Ds;BA_Ds;Distancia más corta desde Bajo Autopistas a cada propiedad
+BAU_DisInv;Bajo Autopista;categórica;BA;DsInv;BA_DsInv;Distancia invertida más corta desde Bajo Autopistas a cada propiedad
+TipoBAU;Bajo Autopista;categórica;BA;TBAu;BA_TBAu;Indica si corresponde a un Bajo Autopista con Calle Pasante o Calle Cortada
+CallePasante;Bajo Autopista;dummy;BA;CPasan;BA_CPasan;Indica los Bajoautopistas que se intersectan con calle vehículares sin interrumpirlas
+CalleCortada;Bajo Autopista;dummy;BA;CCorta;BA_CCorta;Indica calles vehículares discontinuas a causa del paso de la Autopista
+TipoC;Bajo Autopista;categórica;BA;TVia;BA_TVia;Tipo de eje vial (Calle o Avenida)
+Sentido;Bajo Autopista;dummy;BA;SentVi;BA_SentVi;Indica si el eje víal tiene doble sentido o sencillo respecto del transito vehicular
+TP;Bajo Autopista;categórica;BA;TrPub;BA_TrPub;Indica si pasa trasnporte público por el Bajo Autopista 
+MOVILIDAD;Bajo Autopista;categórica;BA;IdTra;BA_IdTra;Código del nivel de tránsito en el Bajo Autopista
+TRANSITO;Bajo Autopista;dummy;BA;NomTra;BA_NomTra;Nombre del nivel de tránsito en el Bajo Autopista
+T_Alto;Bajo Autopista;dummy;BA;TraAl;BA_TraAl;Indica los Bajo Autopistas que se intersectan con avenidas por donde además pasa transporte público
+T_Medio;Bajo Autopista;dummy;BA;TraMe;BA_TraMe;Indica los Bajo Autopistas que se intersectan con Calles por donde pasa transporte público y con avenidas sin transporte público.
+T_Bajo;Bajo Autopista;dummy;BA;TraBa;BA_TraBa;Indica los Bajo Autopistas que se intersectan con Calles por donde no pasa transporte público
+QR_PA;Quejas y Reclamos;discreta;QR;PrAmb;QR_PrAmb;Quejas y reclamos relacionados a la Protección Ambiental por cada Bajo Autopista
+QR_EP;Quejas y Reclamos;discreta;QR;EsPub;QR_EsPub;Quejas y reclamos relacionados al espacio público por cada Bajo Autopista
+QR_Total;Quejas y Reclamos;discreta;QR;Total;QR_Total;Total de Quejas y Reclamos por cada Bajo Autopista
+QR_DenHa;Quejas y Reclamos;continua;QR;DenHa;QR_DenHa;Densidad del total de reclamos por hectarea, para cada bajo autopista en un área d einfluencia 30m.
